@@ -1,0 +1,147 @@
+//Latihan 01
+package latihan;
+
+import java.util.Scanner;
+
+public class Latihan01 {
+    public static void main(String [] args){
+        String cari; 
+        boolean found = false;
+        String[] nama = new String[6];
+        nama [0]= "nina";
+        nama [1]= "nani";
+        nama [2]= "rani";
+        nama [3]= "rudi";
+        nama [4]= "hana";
+        nama [5]= "kamila";
+        
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan nama yang ingin dicari: ");
+        cari = input.nextLine();
+        for (String nama1 : nama) {
+            if (cari.equals(nama1)) {
+                found = true;
+            }
+        }
+        if (found == true){
+            System.out.println("Nama yang anda cari ditemukan!");
+        }else {
+            System.out.println("Nama yang anda cari tidak ditemukan!");
+        }
+        }
+}
+//ini kasus latihan 02;
+package latihan;
+
+import java.util.Scanner;
+
+public class Latihan02 {
+    public static void main (String[] args){
+        int cari;
+        boolean found = false;
+        int []data = new int []{45,25,12,44,78,36,23};
+        Scanner masuk = new Scanner(System.in);
+        System.out.println("Nilai yang ingin dicari");
+        cari = masuk.nextInt();
+        for(int i = 0; i<data.length; i++){
+            if (cari == data[i]){
+                found = true;
+                System.out.println("Nilai ditemukan pada indeks ke- " +i);
+            }
+        }
+        if (found != true){
+            System.out.println("Nilai yang dicari tidak ditemukan!");
+        }
+                
+    }
+    
+}
+
+
+//ini latihan 03;
+
+package latihan;
+
+import java.util.Scanner;
+
+public class Latihan02 {
+    public static void main (String[] args){
+        int cari;
+        boolean found = false;
+        int []data = new int []{45,25,12,44,78,36,23};
+        Scanner masuk = new Scanner(System.in);
+        System.out.println("Nilai yang ingin dicari");
+        cari = masuk.nextInt();
+        for(int i = 0; i<data.length; i++){
+            if (cari == data[i]){
+                found = true;
+                System.out.println("Nilai ditemukan pada indeks ke- " +i);
+            }
+        }
+        if (found != true){
+            System.out.println("Nilai yang dicari tidak ditemukan!");
+        }
+                
+    }
+    
+}
+
+import java.util.Scanner;
+
+public class Latihan04 {
+  public static void main (String[] args){
+      Scanner input = new Scanner(System.in);
+      String cari;
+      System.out.print("Masukkan kata/kalimat: ");
+      cari = input.nextLine();
+      
+      int a = 0;
+      for (int i = 0; i<cari.length();i++ ){
+          if (cari.charAt(i)== 'a'){
+              a++;
+          }
+      }
+      System.out.println("Jumlah huruf a pada kalimat di atas adalah "+a);
+  }
+  
+  //MPK Tahun Ajarin
+  
+  package TP;
+
+public class dua {
+    public static void main (String [] args){
+        /*int bilangan [5] = {1,2,3,4,5,6,7,8}; program akan error karena dalam kurung siku pada tipe data harus kosong
+        System.out.println(bilangan [5]); program akan error karena pada inputan hanya ada 4 indeks
+        */
+        
+        //pembetulan
+        int bilangan [] = {1,2,3,4,5,6,7,8};
+        for (int i=0; i<bilangan.length; i++){
+         
+        System.out.print(bilangan[i]);
+        System.out.print(" ");
+    }
+}
+}
+//ini program sila -4
+package TP;
+
+public class satu {
+    public static void main (String [] args){
+            /*int bilangan [5] = {1,2,3,4,5}; program akan error karena dalam kurung siku pada tipe data harus kosong
+              System.out.println(bilangan [6]); program akan error karena pada inputan hanya ada 4 indeks*/
+            
+            //pembetulan
+        int bilangan [] = {1,2,3,4,5};
+        for (int i =0; i<bilangan.length; i++){
+            
+         System.out.print(bilangan[i]);
+        System.out.print(" ");
+            }
+}
+}
+
+
+
+
