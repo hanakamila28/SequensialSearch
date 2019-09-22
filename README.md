@@ -13,3 +13,5 @@
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(110).png "Latihan 2")
 #Latihan 3
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(111).png "Latihan 3")
+#Latihan 4
+#![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(110).png "Latihan 4")
