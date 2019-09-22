@@ -7,3 +7,6 @@
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(107).png "Tugas 3")
 #Tugas 4
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(108).png "Tugas 4")
+#Tugas 5
+#![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(109).png "Tugas 5")
+
