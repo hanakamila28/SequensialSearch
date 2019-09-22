@@ -9,5 +9,7 @@
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(108).png "Tugas 4")
 #Latihan 1
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(109).png "Latihan 1")
+#Latihan 2
+#![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(110).png "Latihan 2")
 #Latihan 3
 #![AltText](https://github.com/hanakamila28rpl/SequensialSearch/blob/master/Screenshot%20(111).png "Latihan 3")
